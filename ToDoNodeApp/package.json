@@ -1,0 +1,25 @@
+{
+  "name": "todonodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha -timeout 10000",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^4.0.1",
+    "chai": "4.2.0",
+    "chai-http": "4.2.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^7.1.2",
+    "mongoose": "^5.9.13"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
